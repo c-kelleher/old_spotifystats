@@ -1,0 +1,114 @@
+
+<html>
+    <head>
+        
+        <title>Spotify Listening Stats</title>
+        
+        <!--Font import-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="circularSTD_style.css">
+        
+        <!--Bootstrap import-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+        <!--Personal CSS import-->
+        <link rel="stylesheet" type="text/css" href="landingpage.css">
+  </head>
+    
+    <body id="landingpage_body">
+    <div class="h-100 nav_header_combined">
+        <div class="bg-circle-1 bg-circle"></div>
+        <div class="bg-circle-2 bg-circle"></div>
+        <div class="bg-circle-3 bg-circle"></div>
+        <div class="bg-circle-4 bg-circle"></div>
+        <div class="bg-circle-5 bg-circle"></div>
+
+        <!--Nav Bar section... Uses significant bootstrap terms relating to Navbar-->
+        <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-custom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="landingPage.html">MyListeningStats</a>
+                <div class="collapse navbar-collapse navbar-right" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="aboutUs.html" class="nav-link">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.spotify.com">Official Spotify Website</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login_page.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>  
+        
+        <!--Header section... Background image and overlayed text-->
+        <header class="masthead text-center text-white">
+            <div class="masthead-content">
+                <div class="container">
+                    <h1 class="masthead-heading mb-0">Have you ever wanted to know your top artists and songs on Spotify?</h1>
+                    <h2 class="masthead-subheading mb-0">Well now you can!</h2>
+                    <br>
+                    <a href="#about_landingpage" id="learnmore_button" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a>
+                </div>
+            </div>
+            
+        </header>       
+    </div>    
+    
+        <div class="container-fluid">
+            <div class="row justify-content-center about_landingpage" id="about_landingpage">
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img class="artist_images img-responsive" src="kanyewest_pic.png" id="kanye_pic">
+                </div>
+                
+                <div class="col-md-8 col-sm-8 col-xs-8 text-center about_paragraph"> 
+                    <p id="about_paragraph">Everyone has a favorite artist or band, but sometimes it can be hard to rank one over another. Once or twice a year, Spotify will send you some selected listening stats, which are always cool to see! For many listeners, this isn't enough, and we'd like to know our most listened artists, songs, and genres all the time.</p>
+                    <h1 id="about_ending">That's where we come in!</h1>
+                </div>
+                
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img class="artist_images img-responsive" src="taylorswift_pic.png" id="taylor_pic">
+                </div>
+            </div>
+
+        </div>
+        
+        <div>
+            <div class="row justify-content-center Howto_landingpage">
+                <h1 id="Howto_title">How it works:</h1>
+                <div class="col-md-8 col-sm-8 col-xs-10">
+                    <ol id="Howto_list">
+                        <li>Login to Spotify by clicking the link in the top right of this page.</li>
+                        <li>Click "Okay" to let us access your Spotify account data, which we pull using the official Spotify Developer API.</li>
+                        <li>You will be redirected to a page that displays listening data, including your top artists and top songs!</li>
+                    </ol>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 center-block float-sm-none float-xs-none spotify_logo">
+                    <img class="img-responsive" src="spotify_logo.svg" id="spotify_logo">
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        
+        <footer>
+            <center>
+            <p>All data pulled using Spotify Web API.</p>
+            </center>
+        </footer> 
+            
+    <!--Bootstrap JS import-->
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+
+    
+   
+        
+    </body>
+
+</html>

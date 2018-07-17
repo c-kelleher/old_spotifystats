@@ -1,0 +1,184 @@
+.navbar-custom {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0, 0.9);
+}
+
+.navbar-custom .navbar-brand {
+    font-size: 3rem;
+    letter-spacing: 0.23rem;
+    font-family: 'Circular STD Medium';
+    color: white;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+    font-size: 1.7rem;
+    font-family: 'Circular STD Book';
+    letter-spacing: 0.07rem;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+    display: block;
+}
+
+li {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+}
+
+header.masthead {
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    height: 90%;
+}
+
+header.masthead .masthead-content {
+    z-index: 1;
+    position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading {
+    font-size: 4rem;
+    display: inline-block;
+    max-width: 60%;
+    color: white;
+    font-family: 'Circular STD Bold';
+}
+
+header.masthead .masthead-content .masthead-subheading {
+    font-size: 2rem;
+    display: block;
+    color: white;
+    font-family: 'Circular STD Book';
+}
+
+#learnmore_button {
+    background-image: linear-gradient(145deg,#ffc867,#f037a6);
+    color: white;
+    font-family: 'Circular STD Book';
+    max-width: 200px;
+    min-width: 150px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: white;
+}
+
+.nav_header_combined {
+    background: linear-gradient(0deg, #1ED760 30%, #8CD867 100%);
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    padding-top: 18%;
+}
+
+.bg-circle {
+    border-radius: 100%;
+    z-index: 0;
+    position: absolute;
+    overflow: hidden;
+    background: linear-gradient(0deg, #fc5c7d 0%, #6a82fb 100%);
+    max-width: 100%;
+}
+
+.bg-circle-1 {
+    height: 700px;
+    width: 700px;
+    bottom: -35rem;
+    left: -35rem;
+    left: -35rem;
+}
+
+.bg-circle-2 {
+    height: 50rem;
+    width: 50rem;
+    top: -20rem;
+    right: -15rem;
+}
+
+.bg-circle-3 {
+    height: 25rem;
+    width: 25rem;
+    bottom: -10rem;
+    right: -3rem;
+}
+
+.bg-circle-4 {
+    height: 30rem;
+    width: 30rem;
+    top: -9.5rem;
+    right: 35%;
+}
+
+.bg-circle-5 {
+    height: 20rem;
+    width: 20rem;
+    bottom: -9rem;
+    right: 50%;
+}
+
+.about_paragraph {
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding-top: 7%;
+    font-family: 'Circular STD Book';
+    margin:auto;
+}
+
+#about_ending {
+    padding-top: 2rem;
+    padding-bottom: 5%;
+    font-family: 'Circular STD Bold';
+}
+
+.artist_images {
+    padding-top: 7%;
+    margin-top: 65px;
+    margin-bottom: auto;
+}
+
+.spotify_logo {
+    padding-right: 5%;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.Howto_landingpage {
+    font-family: 'Circular STD Book';
+    padding-left: 5%;
+    padding-bottom: 10%;
+}
+
+#Howto_title {
+    font-family: 'Circular STD Bold';
+}
+
+#Howto_list {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+footer {
+    font-family: 'Circular STD Book';
+    background-color: black;
+    margin-bottom: 0;
+    margin-top: 20px;
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
